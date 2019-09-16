@@ -1,0 +1,22 @@
+nav {
+    ul {
+        list-style: none;
+        padding: 0rem;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+    }
+
+    border-bottom: 1px solid $border-color;
+}
+
+.post-content {
+    border-bottom: 1px solid $border-color;
+}

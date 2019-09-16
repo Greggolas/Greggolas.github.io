@@ -1,4 +1,7 @@
-name: Gregg Dunn
+title: Gregg's Dev Blog
 markdown: kramdown
-theme: jekyll-theme-cayman
 permalink: /blog/:year/:month/:day/:title
+sass:
+    style: compressed
+    sass_dir: _sass
+theme: jekyll-theme-cayman
