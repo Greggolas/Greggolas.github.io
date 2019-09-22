@@ -1,15 +1,24 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<h3>{{ page.date | date: "%B %-d, %Y"}}</h3>
 
-<div class="post-content">
+{% assign post_date = page.date | date: "%B %-d, %Y" %}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/blog">Blog</a></li>
+    <li class="breadcrumb-item active" aria-current="page"> {{ post_date }}</li>
+  </ol>
+</nav>
+
+<div>
+    <h1>{{ page.title }}</h1>
+    <hr>
     {{ content }}
 </div>
 
 <h4>Resources</h4>
-<ul class="post-sources">
+<ul>
     {% for source in page.sources%}
     <li><a href="{{ source }}">{{ source }}</a></li>
     {% endfor %}

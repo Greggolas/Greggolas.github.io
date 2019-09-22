@@ -1,10 +1,23 @@
 ---
 layout: default
-title: About
-description: A little about me
+title: About Me
 ---
 
-# About
+<div class="inline-block float-right ml-5 mb-5">
+    <div class="mb-2">
+        <img src="/assets/images/gregg-headshot.jpg" alt="picture of Gregg" style="height: 10rem">
+    </div>
+    <div> 
+        <a href="https://www.linkedin.com/in/greggadunn/" target="_blank">
+            Connect on<img src="/assets/images/LI-In-Bug.png" alt="LinkedIn logo" style="height: 1rem" class="ml-1">
+        </a>
+    </div>
+    <div>
+        <a href="https://github.com/Greggolas" target="_blank">
+            Follow me on<img src="/assets/images/GitHub-Mark-32px.png" alt="LinkedIn logo" style="height: 1rem" class="ml-1">
+        </a>
+    </div>
+</div>
 
 Hey I'm Gregg. For a while now I've been dabbling with web development, and I've decided it's about time to make that my job. 
 

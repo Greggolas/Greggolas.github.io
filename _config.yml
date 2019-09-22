@@ -1,6 +1,15 @@
-title: Gregg's Dev Blog
+title: Gregg Dunn
+description: Dev Blog and Portfolio
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 sass:
     style: compressed
     sass_dir: _sass
+navigation:
+    - text: Home
+      url: /
+    - text: About Me
+      url: /about/
+    - text: Blog Posts
+      url: /blog/
+      layout: post

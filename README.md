@@ -12,6 +12,7 @@ With that in mind, I'm going to be using this website to document my experience 
 To run this site locally, build with:
 
 ```
+bundle install
 bundle exec jekyll serve
 ```
 

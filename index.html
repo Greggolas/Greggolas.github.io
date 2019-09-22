@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Gregg's Dev Blog
-description: I'll be using this site to document my journey as I work on landing my first developer job. Take a look around if you are curious what I'm up to.
+title: New Stuff
 ---
-<h1>New Stuff</h1>
+
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
 {% for post in sorted_posts limit:3 %}
 	<div>
@@ -11,5 +10,3 @@ description: I'll be using this site to document my journey as I work on landing
 		<p> {{ post.content }}</p>
 	</div>
 {% endfor %}
-
-<a href="{{ site.url }}/blog">Older Posts</a>
