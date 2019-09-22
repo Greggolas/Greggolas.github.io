@@ -1,22 +1,10 @@
-nav {
-    ul {
-        list-style: none;
-        padding: 0rem;
-    }
+$theme-colors: (
+  "primary":    #355888,
+  "secondary":  #7786a7,
+  "success":    #459561,
+  "info":       #16141b,
+  "warning":    #c28529,
+  "danger":     #f44336
+);
 
-    li {
-        display: inline-block;
-        margin-right: 1rem;
-    }
-
-    a {
-        display: block;
-        text-decoration: none;
-    }
-
-    border-bottom: 1px solid $border-color;
-}
-
-.post-content {
-    border-bottom: 1px solid $border-color;
-}
+@import "bootstrap/bootstrap";

@@ -4,4 +4,3 @@ permalink: /blog/:year/:month/:day/:title
 sass:
     style: compressed
     sass_dir: _sass
-theme: jekyll-theme-cayman
