@@ -1,9 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: Keepin' it Brief
 description: First post from Prose.io
-sources: ''
 ---
 This week I'm taking a shot at publishing my blog update from [Prose.io](http://prose.io/#about). It's a cool little content authoring tool that integrates right into GitHub Pages. 
 
