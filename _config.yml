@@ -46,9 +46,6 @@ prose:
           element: "multiselect"
           label: "sources"
           placeholder: "Choose Sources"
-          options:
-            - name: "Resource"
-              value: "https://greggolas.github.io/"
           alterable: true
     _posts/static:
       - name: "layout"
