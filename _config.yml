@@ -13,3 +13,50 @@ navigation:
     - text: Blog Posts
       url: /blog/
       layout: post
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://greggolas.github.io/'
+  media: 'assets/images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_sass
+    - /_blog
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "description"
+        field:
+          element: "text"
+          label: "description"
+      - name: "sources"
+        field:
+          element: "multiselect"
+          label: "sources"
+          placeholder: "Choose Sources"
+          options:
+            - name: "Resource"
+              value: "https://greggolas.github.io/"
+          alterable: true
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
