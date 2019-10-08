@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: It's Game Time
+description: My first game jam
 ---
 This week I set out to make it through a good chunk of the computer science curriculum that a bought a few weeks ago. I did that... and then I needed to do something more fun. I started browsing around for project ideas on GitHub and stumbled upon an upcoming game jam called [Game Off](https://itch.io/jam/game-off-2019) that occurs this November. I'm signed up, and now I'm getting ready to participate. 
 
