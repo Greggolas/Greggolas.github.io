@@ -1,9 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: I Spoke Too Soon...
 description: Who knew there were this many good game engines out there?
-sources: ''
 ---
 I'm not too proud to admit that I might have jumped the gun on my engine selection for the game jam that I am participating in this November. After watching some videos and clicking around in GDevelop for a bit, this looked like a pretty solid option for quickly putting together a game. Honestly, I still feel that way, but after additional time experimenting with GDevelop, I found myself getting frustrated navigating the UI. This led me to explore other options.
 
