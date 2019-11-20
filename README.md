@@ -1,10 +1,10 @@
 # About
 
-Hi I'm Gregg! For a while now I've been dabbling with web development, and I've decided it's about time to make that my job. 
+Hey I'm Gregg. I have dabbled with web development and coding projects here and there over the last few years, and I finally want to get serious about making some stuff and putting it out in the world. My hope is that by building out my portfolio and working on new skills, I will put myself in a position where I can eventually do development full time.
 
-I studied IT and networking in school and I've been in the IT industry for about six years, but I've never officially been a "developer" despite creating a handful of websites and tools for myself and my employers along the way. I find myself being constantly drawn back into this space, and I'm ready to do whatever it takes to land my first *real* developer gig.
+With that in mind, I'm going to be using this website to document my experience as I dive into the wild world of writing code and making things. I'll be regularly writing posts on here about the things I'm up to,and if for some reason you want to follow along with me on that journey, that's awesome!
 
-With that in mind, I'm going to be using this website to document my experience as I transition into a developer role. I know there are a few things I need to brush up on so I'll be making posts on here about the things I'm learning, and I'll add links to some of the projects that I'm working on too.
+## Check out the site [here](https://greggolas.github.io/)
 
 ---
 # Developer Notes
