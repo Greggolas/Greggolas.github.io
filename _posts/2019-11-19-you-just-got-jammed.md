@@ -1,9 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: You Just Got Jammed
 description: I did it!
-sources: ''
 ---
 
 Well, I was worried at first that I wasn't going to be able to get this thing finished, but I did it! When I made my last post I committed to creating a submission for the [Game Off 2019](https://itch.io/jam/game-off-2019) game jam, and I successfully submitted my game a couple of days ago. 
