@@ -3,52 +3,41 @@
   <head>
     <meta charset="UTF-8">
 
-{% seo %}
+	{% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
+
   <body>
-    <header class="jumbotron jumbotron-fluid bg-primary text-light my-0 py-4" role="banner">
-      <div class="container">
-        <h1 class="d-flex justify-content-center">{{ site.title }}</h1>
-        <h5 class="d-flex justify-content-center">{{ site.description }}</h5>
-      </div>
+    <header class="container-fluid bg-dark">
+		<nav class=" container navbar navbar-expand-lg navbar-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+        
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					{% for link in site.navigation %}
+						{% if page.url == link.url or page.layout == link.layout  %}
+							<li class="nav-item active">
+
+							{% else %}
+
+							<li class="nav-item">
+						{% endif %}             
+							<a class="nav-link" href="{{ link.url }}">{{ link.text }}<span class="sr-only"></span></a>
+							</li>
+					{% endfor %}
+				</ul>
+			</div>
+        </nav>
     </header>
 
-    <div class="container-fluid bg-dark">
-        <nav class=" container navbar navbar-expand-lg navbar-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              {% for link in site.navigation %}
-                  {% if page.url == link.url or page.layout == link.layout  %}
-                    <li class="nav-item active">
+    <main id="content" class="container pt-3" role="main">  
 
-                    {% else %}
-
-                    <li class="nav-item">
-                  {% endif %}             
-                      <a class="nav-link" href="{{ link.url }}">{{ link.text }}<span class="sr-only"></span></a>
-                    </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </nav>
-    </div>
-
-    <main id="content" class="container pt-3" role="main">
-      
-      {% unless page.layout == "post" %}
-        <h1>{{ page.title }}</h1>
-        <hr>
-      {% endunless %}
-
-      {{ content }}
+		{{ content }}
 
     </main>
 

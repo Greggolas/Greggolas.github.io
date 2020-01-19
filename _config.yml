@@ -8,8 +8,6 @@ sass:
 navigation:
     - text: Home
       url: /
-    - text: About Me
-      url: /about/
     - text: Blog Posts
       url: /blog/
       layout: post
