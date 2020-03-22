@@ -1,7 +1,7 @@
 ---
-layout: post
-published: true
 title: You Just Got Jammed
+date: 2019-11-19 00:00:00 Z
+layout: post
 description: I did it!
 ---
 

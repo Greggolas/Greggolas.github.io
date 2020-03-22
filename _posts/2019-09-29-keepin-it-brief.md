@@ -1,9 +1,10 @@
 ---
-layout: post
-published: true
 title: Keepin' it Brief
+date: 2019-09-29 00:00:00 Z
+layout: post
 description: First post from Prose.io
 ---
+
 This week I'm taking a shot at publishing my blog update from [Prose.io](http://prose.io/#about). It's a cool little content authoring tool that integrates right into GitHub Pages. 
 
 My goal this last week was to dig into a computer science video series that I purchased on Udemy. This happened a little bit, but not as much as I would have liked. I had to read some documentation for work that ended up taking up a lot of the time that I usually would have used to study new dev stuff, but that's enough excuses. I'll press on and keep plugging away at that this upcoming week. 

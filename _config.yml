@@ -1,57 +1,66 @@
+---
 title: Gregg Dunn
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 description: Dev Blog and Portfolio
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: "/blog/:year/:month/:day/:title"
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: compressed
+  sass_dir: _sass
 navigation:
-    - text: Home
-      url: /
-    - text: Blog Posts
-      url: /blog/
-      layout: post
+- text: Home
+  url: "/"
+- text: Blog Posts
+  url: "/blog/"
+  layout: post
 prose:
-  rooturl: '_posts'
-  siteurl: 'https://greggolas.github.io/'
-  media: 'assets/images'
+  rooturl: _posts
+  siteurl: https://greggolas.github.io/
+  media: assets/images
   ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /_sass
-    - /_blog
-    - .gitignore
-    - Gemfile
-    - Gemfile.lock
+  - index.md
+  - _config.yml
+  - "/_layouts"
+  - "/_includes"
+  - "/_sass"
+  - "/_blog"
+  - ".gitignore"
+  - Gemfile
+  - Gemfile.lock
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
-      - name: "description"
-        field:
-          element: "text"
-          label: "description"
-      - name: "sources"
-        field:
-          element: "multiselect"
-          label: "sources"
-          placeholder: "Choose Sources"
-          alterable: true
+    - name: layout
+      field:
+        element: hidden
+        value: post
+    - name: title
+      field:
+        element: text
+        label: title
+    - name: description
+      field:
+        element: text
+        label: description
+    - name: sources
+      field:
+        element: multiselect
+        label: sources
+        placeholder: Choose Sources
+        alterable: true
     _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+    - name: layout
+      field:
+        element: hidden
+        value: page
+    - name: permalink
+      field:
+        element: text
+        label: Permalink
+        value: ''

@@ -1,9 +1,10 @@
 ---
-layout: post
-published: true
 title: It's Game Time
+date: 2019-10-07 00:00:00 Z
+layout: post
 description: My first game jam
 ---
+
 This week I set out to make it through a good chunk of the computer science curriculum that a bought a few weeks ago. I did that... and then I needed to do something more fun. I started browsing around for project ideas on GitHub and stumbled upon an upcoming game jam called [Game Off](https://itch.io/jam/game-off-2019) that occurs this November. I'm signed up, and now I'm getting ready to participate. 
 
 I have never released a game before or even finished making a game so this will be a fun challenge. I've messed around with Unity a fair amount over the last few years, but I never got to the point with any projects where I could say they were "done" and ready to share with the world. During this game jam I'm making it a goal to actually do that last thing. I want to make a game (realistically something pretty small), and "release" it by the end of November. Basically, the way that this thing is going to work is, a theme will be selected for the games created during the jam, and once that theme is shared with participants, me and a bunch of other people (1,045 as of right now) will set off to make our games, which have to be completed by the end of the month.

@@ -1,9 +1,10 @@
 ---
-layout: post
-published: true
 title: A Whole New World
+date: 2020-03-22 00:00:00 Z
+layout: post
 description: Where do I start...?
 ---
+
 Holy cow! I haven't posted on here since November and that honestly feels like ages ago. So much has happened in just a few months, and the dev blog took a bit of a back seat to everything else in my life. In the time since my last post: I got married, bought a house, moved from Seattle to the Portland, OR area, and started an amazing new job.
 
 Home life has been keeping me super busy these last few months, and that's amazing! But it does mean I've been spending a bit less time working on dev skills when I'm not a work. Fortunately, I work on a real dev team now! And that means I get to scratch my dev itch at work most days. I plan to keep this blog alive, and I will continue improving it and posting updates when I'm able to find time. 
