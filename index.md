@@ -1,8 +1,15 @@
 ---
-title: Blog Home
+title: Home
 layout: home
 ---
 
-Hey I'm Gregg, and this is my dev blog! I'm always tinkering with code or building something, and I use this blog to document the projects I'm working on. I also post regularly about dev skills I'm picking up and whatever else is on my mind.
+# Latest Posts
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
+{% for post in sorted_posts limit:3 %}
+### [{{ post.title }}]({{ post.url }})
+#### {{ post.date | date: "%B %-d, %Y" }}
+{{ post.content }}
+---
+{% endfor %}
 
-Thanks for checking this out. Feel free to poke around on the site and reach out on LinkedIn if you are interested in getting connected.
+### [Older Posts](/blog)

@@ -8,18 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: Dev Blog and Portfolio
+description: Dev Blog
 markdown: kramdown
 permalink: "/blog/:year/:month/:day/:title"
+theme: jekyll-theme-architect
 sass:
   style: compressed
   sass_dir: _sass
-navigation:
-- text: Home
-  url: "/"
-- text: Blog Posts
-  url: "/blog/"
-  layout: post
 prose:
   rooturl: _posts
   siteurl: https://greggolas.github.io/
@@ -48,19 +43,8 @@ prose:
       field:
         element: text
         label: description
-    - name: sources
-      field:
-        element: multiselect
-        label: sources
-        placeholder: Choose Sources
-        alterable: true
-    _posts/static:
-    - name: layout
-      field:
-        element: hidden
-        value: page
-    - name: permalink
-      field:
-        element: text
-        label: Permalink
-        value: ''
+google_analytics: UA-175506346-1
+show_downloads: false
+github:
+  is_user_page: true
+  is_project_page: false
