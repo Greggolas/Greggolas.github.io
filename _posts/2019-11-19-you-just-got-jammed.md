@@ -14,7 +14,7 @@ Once the jam theme ("leaps and bounds") was announced, I brain stormed for a whi
 Coding the game was a breeze in Godot. The GDScript syntax is so similar to Python I was able to jump right in and start scripting things. I battled the physics system a bit, but after some trial and error and a couple of pretty full weekends, I made a game! It's nowhere near polished, but it's functional and some friends and family have already started playing and enjoyed it enough to trash talk about their high scores for a couple of days.
 
 You can see my game jam submission [here](https://itch.io/jam/game-off-2019/rate/518423) and try out the game for yourself in your web browser:
-# [Play Now](https://greggolas.itch.io/space-bounder)
+### [Play Now](https://greggolas.itch.io/space-bounder)
 
 I'm very glad I participated in this game jam and actually saw it through. I'm a perfectionist and ordinarily wouldn't have put out something this rough. The timeline (and some holiday plans this month) forced me to work quickly and be scrappy with this project and the result was really positive. I don't know for sure what my next project is going to be next, but I think this was a good exercise in just "putting a thing out in the world." 
 
