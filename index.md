@@ -19,3 +19,6 @@ If that interests you, feel free to poke around!
 [read more]({{ post.url }})
 
 {% endfor %}
+---
+
+## [Oldies](/blog)
