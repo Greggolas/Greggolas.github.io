@@ -9,6 +9,7 @@ Hi, I'm Gregg! I use this space to document work that I'm doing to better myself
 
 If that interests you, feel free to poke around!
 
+---
 
 ## The Latest
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
@@ -17,5 +18,4 @@ If that interests you, feel free to poke around!
 {{post.content | strip_html | truncatewords:100  }}
 [read more]({{ post.url }})
 
----
 {% endfor %}
