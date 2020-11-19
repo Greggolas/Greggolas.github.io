@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: HarvardX Thoughts
 description: How I'm staying busy while quarantining
 ---
