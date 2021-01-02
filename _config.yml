@@ -1,0 +1,52 @@
+---
+title: Gregg Dunn
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Dev Blog
+markdown: kramdown
+permalink: "/blog/:year/:month/:day/:title"
+theme: jekyll-theme-architect
+sass:
+  style: compressed
+  sass_dir: _sass
+prose:
+  rooturl: _posts
+  siteurl: https://greggolas.github.io/
+  media: assets/images
+  ignore:
+  - index.md
+  - _config.yml
+  - "/_layouts"
+  - "/_includes"
+  - "/_sass"
+  - "/_blog"
+  - ".gitignore"
+  - Gemfile
+  - Gemfile.lock
+  metadata:
+    _posts:
+    - name: layout
+      field:
+        element: hidden
+        value: post
+    - name: title
+      field:
+        element: text
+        label: title
+    - name: description
+      field:
+        element: text
+        label: description
+google_analytics: UA-175506346-1
+show_downloads: false
+github:
+  is_user_page: true
+  is_project_page: false
+plugins:
+  - jemoji

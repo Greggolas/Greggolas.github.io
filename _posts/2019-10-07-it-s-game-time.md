@@ -1,0 +1,14 @@
+---
+title: It's Game Time
+date: 2019-10-07 00:00:00 Z
+layout: post
+description: My first game jam
+---
+
+This week I set out to make it through a good chunk of the computer science curriculum that a bought a few weeks ago. I did that... and then I needed to do something more fun. I started browsing around for project ideas on GitHub and stumbled upon an upcoming game jam called [Game Off](https://itch.io/jam/game-off-2019) that occurs this November. I'm signed up, and now I'm getting ready to participate. 
+
+I have never released a game before or even finished making a game so this will be a fun challenge. I've messed around with Unity a fair amount over the last few years, but I never got to the point with any projects where I could say they were "done" and ready to share with the world. During this game jam I'm making it a goal to actually do that last thing. I want to make a game (realistically something pretty small), and "release" it by the end of November. Basically, the way that this thing is going to work is, a theme will be selected for the games created during the jam, and once that theme is shared with participants, me and a bunch of other people (1,045 as of right now) will set off to make our games, which have to be completed by the end of the month.
+
+In preparation for the game jam, I need to get proficient working in a game engine so I don't have to waste time researching the fundamentals. Unity is a pretty legit game engine with a ton of functionality, and while it would be nice to get more proficient using it, I don't think I'm going to need something quite this robust (and complicated) for this game jam. I spent quite a bit of time feeling out what engine I would use over the last week, and I feel pretty confident I'm going to go with [GDevelop](https://gdevelop-app.com/). I was hesitant at first about using this engine because I'm trying to build my developer chops, and it leans so heavily into the fact that you don't have to write code to use it. After looking at lots of different, more code-heavy engines, I decided to come back to GDevlop for a few reasons. First and foremost, you don't write "code" for a lot of the things that you can do in this engine, but the processes that I will be going through in designing objects, events, and actions in this engine are still going to give me some great "coding" practice (also you can define custom logic with JavaScript if needed). Aside from that, this engine is pretty polished, has great documentation, and looks like it will be helpful in porting the game to mobile (something I think will be fun).
+
+I've got about three weeks to work on using GDevelop before the game jam, and I think that will be perfect. I'm going to go through their documentation and maybe work on a small pre-game jam project to get comfortable. I'm really excited to give this thing a shot, and I'll be documenting my process on here along the way. Here we go!

@@ -1,0 +1,14 @@
+---
+title: I Spoke Too Soon...
+date: 2019-10-27 00:00:00 Z
+layout: post
+description: Who knew there were this many good game engines out there?
+---
+
+I'm not too proud to admit that I might have jumped the gun on my engine selection for the game jam that I am participating in this November. After watching some videos and clicking around in GDevelop for a bit, this looked like a pretty solid option for quickly putting together a game. Honestly, I still feel that way, but after additional time experimenting with GDevelop, I found myself getting frustrated navigating the UI. This led me to explore other options.
+
+As I mentioned in my last post, I have some experience with Unity, but I haven't written any C# in a while so I figured I might get annoyed if I was figuring out syntactical stuff while rapidly developing a game in Unity. This got me thinking "I wonder if there's a decent engine that I could use Python with?" Python is the language I'm most regularly coding in at the moment, and my comfort level with that language led me to investigate [Godot](https://godotengine.org/)... Godot supports scripting in GDScript, which is basically Python with a few minor syntax differences that are specific to the engine. That fact alone got me interested, but then I started digging into the documentation and I found a lot more reasons to go with this engine. First off, the documentation is thorough and cleverly written. This makes it really easy to follow, and adds a bit of fun to the tutorials. The UI layout  is great (a lot like Unity), and it makes working in the engine really intuitive. I joined the Godot Discord channel which is really active, and I think this could be really helpful if I run into a snag during the game jam. There is a lot to like about Godot, and I can see myself working in this engine for this game jam and beyond. I already got one of their tutorial games working on my phone, and I could definitely see myself making a hobby out of creating mobile games with this engine.
+
+Alright, that's enough talk about game engines. This next month should be a lot of fun and a great learning experience. I am a little concerned that I'll be strapped for time because I have some job stuff coming up that will be consume a lot of my waking hours, but I'm sure I'll be able to scope down the game project to fit into my downtime. My biggest practical concern right now is making sure I have art assets for the game (I'm most definitely not an artist), but I'll either make some simple pixel art or grab some free-use assets once the game theme is announced on November 1st. I'm sure I'll have a lot to talk about the next time I make a blog post. The game jam should be well underway, and I'll have some professional things going on that will be filling my head with all kinds of new stuff. 
+
+Until next time...
